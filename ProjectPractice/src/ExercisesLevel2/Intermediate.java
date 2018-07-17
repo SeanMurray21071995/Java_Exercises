@@ -19,40 +19,10 @@ public class Intermediate {
 		System.out.println(th.isItHot(95, false));
 		
 		//People 
-		ArrayList<Person> people = new ArrayList(); 
+		peopleStorage ps = new peopleStorage();
+		System.out.println((ps.thisPerson("Tommy")).name);
 		
-		Person paul = new Person();
-		paul.name="Paul";
-		paul.age=34;
-		paul.jobTitle="Supervisor";
-		Person jane = new Person();
-		jane.name ="Jane";
-		jane.age=24;
-		jane.jobTitle="Traniee";
-		Person tommy = new Person();
-		tommy.name="Tommy";
-		tommy.age=27;
-		tommy.jobTitle="Boss";
 		
-		people.add(paul);
-		people.add(jane);
-		people.add(tommy);
-		
-		for(Person p :people) 
-		{
-			System.out.println(p);
-		}
-		
-		String lookFor= "Jane";
-		
-		for(Person p : people) 
-		{
-			String i = p.getName();
-			if( i==lookFor) 
-			{
-				System.out.println(p);
-			}
-		}
 
 	}
 
