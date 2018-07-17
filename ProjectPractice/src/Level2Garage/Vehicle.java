@@ -11,6 +11,8 @@ public class Vehicle {
 	private int costs;
 	private int totalcost;
 
+	
+	
 	public int getWheels() {
 		return Wheels;
 	}

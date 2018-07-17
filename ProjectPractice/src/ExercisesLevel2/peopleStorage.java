@@ -25,10 +25,6 @@ public class peopleStorage {
 	people.add(jane);
 	people.add(tommy);
 	
-	for(Person p :people) 
-	{
-		System.out.println(p);
-	}
 	}
 	
 	

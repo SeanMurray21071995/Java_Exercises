@@ -14,7 +14,7 @@ public class Motorcycle extends Vehicle {
 		this.setPassengerNumber(2);
 		this.setBasePrice(200);;
 		this.setSize("small");
-		this.setType("Motorcyle");
+		this.setType("Motorcycle");
 		this.setWheels(2);
 		
 		

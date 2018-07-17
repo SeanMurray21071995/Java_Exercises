@@ -20,7 +20,14 @@ public class Intermediate {
 		
 		//People 
 		peopleStorage ps = new peopleStorage();
+		ArrayList<Person> temp = ps.people;
+		for(Person p :temp) 
+		{
+			System.out.println(p);
+		}
+		
 		System.out.println((ps.thisPerson("Tommy")).name);
+		
 		
 		
 

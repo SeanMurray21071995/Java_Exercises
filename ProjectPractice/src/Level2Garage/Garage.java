@@ -23,14 +23,9 @@ public class Garage {
 			{
 				v.setTotalcost(v.getBasePrice()+v.getCosts());
 			}
+			System.out.println("carId: "+v.getId()+" cost: "+v.getTotalcost());
 		}
 	}
-	
-	public void thePrice(int price, String type)
-	{
-		System.out.println("The price is: "+price+" for the: "+type);
-	}
-	
 	public void addVehicle(Vehicle v) 
 	{
 		garage.add(v);
