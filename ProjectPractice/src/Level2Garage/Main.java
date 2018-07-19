@@ -9,9 +9,7 @@ public class Main {
 		Motorcycle magicBike = new Motorcycle(2,true, 455);
 		
 		localGarage.addVehicle(beatle);
-		localGarage.addVehicle(magicBike);
-		
+		localGarage.addVehicle(magicBike);		
 		localGarage.getPriceList();
 	}
-
 }

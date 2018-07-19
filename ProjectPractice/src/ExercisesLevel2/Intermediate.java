@@ -28,7 +28,7 @@ public class Intermediate {
 		
 		System.out.println((ps.thisPerson("Tommy")).name);
 		
-		
+		 
 		
 
 	}
