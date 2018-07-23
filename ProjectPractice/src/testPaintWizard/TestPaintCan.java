@@ -1,4 +1,4 @@
-package TestPaintWizard;
+package testPaintWizard;
 
 import static org.junit.Assert.*;
 
