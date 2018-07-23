@@ -39,5 +39,28 @@ public class Logic {
 		return temp.getName();
 	}
 	
-	
+	public String calculateRemainingCost(int roomCoverage) 
+	{
+		PaintCan temp = new PaintCan("",1000,1000,0);
+		double costPerLitre; 
+		double remainingPaint;
+		double tempRemainingCost=0;
+		for(PaintCan pc: allCans) 
+		{
+			remainingPaint=pc.getTotalCoveragePerProduct()-roomCoverage;
+			costPerLitre =(pc.getPrice()/pc.getLitre())*remainingPaint;
+			if(tempRemainingCost==0) 
+			{
+				tempRemainingCost= costPerLitre;
+				temp=pc;
+			}
+			else if(tempRemainingCost>costPerLitre) 
+			{
+				tempRemainingCost= costPerLitre;
+				temp=pc;
+			}
+		}
+
+		return temp.getName();
+	}
 }

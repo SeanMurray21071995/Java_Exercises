@@ -19,6 +19,8 @@ public class TestLogic {
 	public void TestClaculateRemaningCost() 
 	{
 		Logic log = new Logic();
-		assertEquals("The price was not calculated corectly ", log.calculatePrice(50),);
+		assertEquals("The price was not calculated corectly ", log.calculateRemainingCost(50),"averageJoes");
+		assertEquals("The price was not calculated corectly ", log.calculateRemainingCost(500),"DuluxourousPaints");
 	}
 }
+ 
